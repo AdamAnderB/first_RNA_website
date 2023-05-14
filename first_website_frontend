@@ -1,5 +1,9 @@
 var first_variable = 7;
 var second_variable = 12;
 
-document.getElementById("output").innerHTML = second_variable;
+
+var shoe = prompt("what is your shoe size?");
+
+document.getElementById('output').innerHTML = `Or, at least top: ${shoe}`;
+
 
