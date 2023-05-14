@@ -1,1 +1,5 @@
 var first_variable = 7;
+var second_variable = 12;
+
+document.getElementById("output").innerHTML = second_variable;
+
